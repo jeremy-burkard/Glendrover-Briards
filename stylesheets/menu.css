@@ -1,0 +1,56 @@
+#headerposition {
+	width: 100%;
+	/*position: fixed;*/
+	z-index: 2;
+}
+
+#header {
+	position: relative;
+	width: 1022px;
+	margin: auto;
+	background-image: url("../images/BlueGradient.png");
+	background-repeat: repeat-x;
+	background-size: contain;
+	height: 195px;
+	border: 1px ridge #142234;
+}
+
+#header #molly {
+	float: left;
+	padding-left: 40px;
+	height: 195px;
+}
+
+#header #rightSide {
+	width: 797px;
+	float: left;
+}
+
+#header ul {
+	display: block;
+	list-style-type: none;
+	text-align: center;
+}
+
+#header ul li {
+	display: inline-block;
+	margin: 5px 20px;
+}
+
+#header ul li a {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Milonga',Verdana;
+	font-size: 22px;
+	text-align: center;
+	color: #CC8737;
+	text-shadow: 2px 2px 2px #000;
+	opacity: 0.8;
+	filter: alpha(opacity=80);	
+}
+
+#header ul li a:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);	
+}	

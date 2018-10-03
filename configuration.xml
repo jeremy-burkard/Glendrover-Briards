@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration>
+  <glendroverBriards.localhost>
+    <domain>glendroverBriards.localhost</domain>
+    <resources>
+
+			<collection id='PhotoGallery' source='FlickrCollection'>
+				<calendarId>msapd.org_nla1bs2tkgcmpfhq4dauolstuo@group.calendar.google.com</calendarId>
+	    	<apiKey>8de16aa893fd4cd2644f9fe2343588a5</apiKey>
+	    	<userId>61386940@N06</userId>
+			</collection>
+
+    </resources>
+  </glendroverBriards.localhost>
+</configuration>

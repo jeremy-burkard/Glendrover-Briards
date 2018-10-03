@@ -1,0 +1,104 @@
+/*@import url("http://fonts.googleapis.com/css?family=Simonetta:900");*/
+@import url("http://fonts.googleapis.com/css?family=Milonga");
+/*@import url("http://fonts.googleapis.com/css?family=Cherry+Swash:400,700");
+@import url("http://fonts.googleapis.com/css?family=Gentium+Book+Basic");
+@import url("http://fonts.googleapis.com/css?family=Rum+Raisin");
+@import url("http://fonts.googleapis.com/css?family=Trocchi");*/
+@import url("http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,700,900");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	/*height: 100%;*/
+}
+
+body {
+	text-align: center;
+	font-family: "Alegreya",Verdana;
+	/*height: 100%;*/
+	/*background-color: #007B0C;*/
+	/*background-color: #EAB052;*/
+	/*background-color: #F9C579;*/
+}
+
+img#BriardPaisley {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	opacity: 0.5;
+	left: 0px;
+	filter: alpha(opacity=50);
+	z-index: -1;
+}
+
+div.content {
+	position: relative;
+	font-size: 20px;
+	width: 982px;
+	min-height: 100%;
+	margin: auto;
+	text-align: left;
+	padding: 20px;
+	background-color: #F9C579;
+	border: 1px ridge #142234;
+	border-top: 0px;
+	z-index: 1;
+}
+
+div.content p {
+	padding-bottom: 15px;
+}
+
+div.content p:first-letter {
+	font-size: 32px;
+	font-weight: bold;
+	font-family: 'Milonga',Verdana	
+}
+
+div.title {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	font-style: italic;
+	color: #1A3380;
+	padding:20px 50px 20px 30px;
+	font-family:'Milonga',Verdana;
+}
+
+.preload {
+	display: none;
+}
+
+div.photoframe {
+	font-family: 'Milonga',Verdana;	
+	font-size: 18px;
+	font-style: italic;
+	padding: 5px;
+	margin: 20px;
+	background-color: ghostwhite;
+	border: 1px #142234 ridge;
+	color: #142234;
+	text-align: center;
+}
+
+div.photoframe img {
+	display: block;
+	padding-bottom: 10px;
+}
+
+div.finally {
+	clear: both;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#links li {
+	padding-bottom: 10px;
+}
